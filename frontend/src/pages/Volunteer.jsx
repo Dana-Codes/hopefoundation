@@ -1,9 +1,11 @@
-import React from 'react'
+import VolunteerHero from "../components/volunteer/VolunteerHero";
+import VolunteerForm from "../components/volunteer/VolunteerForm";
 
-const Volunteer = () => {
+export default function Volunteer() {
   return (
-    <div>Volunteer</div>
-  )
+    <>
+      <VolunteerHero />
+      <VolunteerForm />
+    </>
+  );
 }
-
-export default Volunteer

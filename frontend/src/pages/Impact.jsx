@@ -1,9 +1,15 @@
-import React from 'react'
+import ImpactHero from "../components/impact/ImpactHero";
+import ImpactStats from "../components/impact/ImpactStats";
+import SuccessStories from "../components/impact/SuccessStories";
+import ImpactCTA from "../components/impact/ImpactCTA";
 
-const Impact = () => {
+export default function Impact() {
   return (
-    <div>Impact</div>
-  )
+    <>
+      <ImpactHero />
+      <ImpactStats />
+      <SuccessStories />
+      <ImpactCTA />
+    </>
+  );
 }
-
-export default Impact
