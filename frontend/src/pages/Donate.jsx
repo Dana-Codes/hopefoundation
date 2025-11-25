@@ -1,9 +1,12 @@
-import React from 'react'
 
-const Donate = () => {
+import DonateHero from "../components/donate/DonateHero";
+import DonationForm from "../components/donate/DonationForm";
+
+export default function Donate() {
   return (
-    <div>Donate</div>
-  )
+    <>
+      <DonateHero />
+      <DonationForm />
+    </>
+  );
 }
-
-export default Donate

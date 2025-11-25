@@ -1,9 +1,15 @@
-import React from 'react'
+import CampaignHero from "../components/campaigns/CampaignHero";
+import CampaignFilter from "../components/campaigns/CampaignFilter";
+import CampaignCards from "../components/campaigns/CampaignCards";
+import CampaignCTA from "../components/campaigns/CampaignCTA";
 
-const Campaigns = () => {
+export default function Campaigns() {
   return (
-    <div>Campaigns</div>
-  )
+    <>
+      <CampaignHero />
+      <CampaignFilter />
+      <CampaignCards />
+      <CampaignCTA />
+    </>
+  );
 }
-
-export default Campaigns
