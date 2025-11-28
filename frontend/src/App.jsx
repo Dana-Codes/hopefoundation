@@ -14,6 +14,15 @@ import Volunteer from "./pages/Volunteer";
 import Contact from "./pages/Contact";
 import Legal from "./pages/Legal";
 
+import "aos/dist/aos.css";
+import AOS from "aos";
+
+AOS.init({
+  duration: 900,
+  once: true,
+});
+
+
 function App() {
   return (
     <>

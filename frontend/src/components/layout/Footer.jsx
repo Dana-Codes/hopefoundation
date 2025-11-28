@@ -32,8 +32,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
           <ul className="space-y-3 text-sm">
             <li>Email: support@foundation.org</li>
-            <li>Phone: +234 000 0000</li>
-            <li>Address: Lagos, Nigeria</li>
+            <li>225 Reinekers Ln, Alexandria, VA 22314, United States</li>
           </ul>
         </div>
 

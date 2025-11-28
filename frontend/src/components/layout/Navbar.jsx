@@ -10,7 +10,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-700">
-          Foundation
+         Global Hope Foundation
         </Link>
 
         {/* Desktop Menu */}
@@ -19,8 +19,6 @@ export default function Navbar() {
           <Link to="/about">About</Link>
           <Link to="/campaigns">Campaigns</Link>
           <Link to="/impact">Impact</Link>
-          <Link to="/events">Events</Link>
-          <Link to="/volunteer">Volunteer</Link>
           <Link to="/contact">Contact</Link>
         </div>
 
@@ -52,8 +50,7 @@ export default function Navbar() {
           <Link onClick={() => setOpen(false)} to="/about">About</Link>
           <Link onClick={() => setOpen(false)} to="/campaigns">Campaigns</Link>
           <Link onClick={() => setOpen(false)} to="/impact">Impact</Link>
-          <Link onClick={() => setOpen(false)} to="/events">Events</Link>
-          <Link onClick={() => setOpen(false)} to="/volunteer">Volunteer</Link>
+    
           <Link onClick={() => setOpen(false)} to="/contact">Contact</Link>
           
           <Link

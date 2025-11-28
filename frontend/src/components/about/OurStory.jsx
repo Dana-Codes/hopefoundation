@@ -1,31 +1,31 @@
 export default function OurStory() {
   const timeline = [
     {
-      year: "2018",
+      year: "2021",
       title: "The Beginning",
       description:
         "The foundation was established with a mission to help vulnerable families and children facing extreme poverty and lack of access to education.",
     },
     {
-      year: "2019",
+      year: "2022",
       title: "First Education Program",
       description:
         "We launched our first scholarship program, supporting 50 children with school supplies, enrollment fees, and mentoring.",
     },
     {
-      year: "2020",
+      year: "2023",
       title: "Medical Outreach Expansion",
       description:
         "Expanded to rural medical outreach, reaching over 2,000 people with free medical checkups, medicines, and health education.",
     },
     {
-      year: "2021",
+      year: "2024",
       title: "Community Development Projects",
       description:
         "Started supporting community initiatives — clean water, small farming, and women empowerment programs.",
     },
     {
-      year: "2023",
+      year: "2025",
       title: "Building for the Future",
       description:
         "Launched school-building and health-center projects to create long-term sustainable impact.",
