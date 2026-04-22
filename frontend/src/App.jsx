@@ -13,9 +13,12 @@ import Events from "./pages/Events";
 import Volunteer from "./pages/Volunteer";
 import Contact from "./pages/Contact";
 import Legal from "./pages/Legal";
+import GoogleTranslate from './components/GoogleTranslate';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 import "aos/dist/aos.css";
 import AOS from "aos";
+import WhatsappButton from './components/layout/WhatsappButton';
 
 AOS.init({
   duration: 900,
@@ -29,7 +32,7 @@ function App() {
       <div className="flex flex-col min-h-screen">
 
         <Navbar />
-
+<GoogleTranslate />
         <main className="flex-grow pt-20">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -44,7 +47,10 @@ function App() {
             <Route path="/legal" element={<Legal />} />
           </Routes>
         </main>
-
+        <WhatsappButton/>
+        <div className="p-4 flex justify-end">
+        <LanguageSwitcher />
+        </div>
         <Footer />
 
       </div>

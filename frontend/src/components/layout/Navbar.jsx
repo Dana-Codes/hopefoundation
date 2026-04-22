@@ -5,12 +5,12 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-sm fixed w-full top-0 z-50">
+    <nav className="bg-white shadow-sm fixed w-full top-0 z-50 mt-10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-700">
-         Global Hope Foundation
+         Al Maktoum Foundation
         </Link>
 
         {/* Desktop Menu */}
@@ -45,7 +45,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {open && (
-        <div className="md:hidden bg-white shadow-inner px-6 py-4 flex flex-col gap-4 text-gray-700 font-medium">
+        <div className="md:hidden bg-white shadow-inner px-6 py-4 flex flex-col gap-4 text-gray-700 font-medium mt-10">
           <Link onClick={() => setOpen(false)} to="/">Home</Link>
           <Link onClick={() => setOpen(false)} to="/about">About</Link>
           <Link onClick={() => setOpen(false)} to="/campaigns">Campaigns</Link>

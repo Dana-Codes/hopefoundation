@@ -4,14 +4,13 @@ export default function Footer() {
   return (
     <footer className="bg-[#0A1A2F] text-gray-300 pt-14 pb-8 mt-20">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
-
         {/* Column 1 - Logo & Mission */}
         <div>
           <h2 className="text-2xl font-bold text-white">Foundation</h2>
           <p className="mt-4 text-sm leading-6">
             We are committed to improving lives through education, medical
-            support, poverty relief, and community development. Together, we
-            can make a difference.
+            support, poverty relief, and community development. Together, we can
+            make a difference.
           </p>
         </div>
 
@@ -19,11 +18,31 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-3 text-sm">
-            <li><Link to="/" className="hover:text-white">Home</Link></li>
-            <li><Link to="/about" className="hover:text-white">About Us</Link></li>
-            <li><Link to="/campaigns" className="hover:text-white">Campaigns</Link></li>
-            <li><Link to="/impact" className="hover:text-white">Impact</Link></li>
-            <li><Link to="/donate" className="hover:text-white">Donate</Link></li>
+            <li>
+              <Link to="/" className="hover:text-white">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="hover:text-white">
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/campaigns" className="hover:text-white">
+                Campaigns
+              </Link>
+            </li>
+            <li>
+              <Link to="/impact" className="hover:text-white">
+                Impact
+              </Link>
+            </li>
+            <li>
+              <Link to="/donate" className="hover:text-white">
+                Donate
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -32,18 +51,31 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
           <ul className="space-y-3 text-sm">
             <li>Email: support@foundation.org</li>
-            <li>225 Reinekers Ln, Alexandria, VA 22314, United States</li>
+            <li>
+              Avenida Francisco I. Madero (Centro Histórico, Mexico City)
+              Sukhumvit Road (Central/East): Thailand
+            </li>
           </ul>
         </div>
 
         {/* Column 4 - Social Media */}
         <div>
-          <h3 className="text-lg font-semibold text-white mb-4">Connect With Us</h3>
+          <h3 className="text-lg font-semibold text-white mb-4">
+            Connect With Us
+          </h3>
           <div className="flex gap-4 text-xl">
-            <a href="#" className="hover:text-white">🌐</a>
-            <a href="#" className="hover:text-white">📘</a>
-            <a href="#" className="hover:text-white">🐦</a>
-            <a href="#" className="hover:text-white">📸</a>
+            <a href="#" className="hover:text-white">
+              🌐
+            </a>
+            <a href="#" className="hover:text-white">
+              📘
+            </a>
+            <a href="#" className="hover:text-white">
+              🐦
+            </a>
+            <a href="#" className="hover:text-white">
+              📸
+            </a>
           </div>
         </div>
       </div>

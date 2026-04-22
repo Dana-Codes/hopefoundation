@@ -1,7 +1,7 @@
 export default function SuccessStories() {
   const stories = [
     {
-      name: "Amina Yusuf",
+      name: "issabela woods",
       role: "Student",
       story: "Thanks to the scholarship program, I could continue my education and pursue my dream of becoming a teacher.",
       image: "https://randomuser.me/api/portraits/women/68.jpg",
@@ -13,7 +13,7 @@ export default function SuccessStories() {
       image: "https://randomuser.me/api/portraits/men/45.jpg",
     },
     {
-      name: "Grace Okeke",
+      name: "jonny kagan",
       role: "Community Leader",
       story: "Our village received clean water and education support, and our children now have hope for a better future.",
       image: "https://randomuser.me/api/portraits/women/50.jpg",

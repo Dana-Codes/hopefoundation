@@ -12,10 +12,10 @@ export default function ContactUs() {
 
     emailjs
       .sendForm(
-        "service_0ntecyo",
-        "template_virfa3c",
+        "service_0nto",
+        "template_virfc",
         formRef.current,
-        { publicKey: "98iwU83ZsG1ewfkCN" }
+        { publicKey: "98iwU83ZsGfkCN" }
       )
       .then(
         () => {

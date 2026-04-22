@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 // EmailJS IDs
-const SERVICE_ID = "service_0ntecyo";
-const TEMPLATE_ID = "template_izv7c4b";
-const PUBLIC_KEY = "98iwU83ZsG1ewfkCN"; // <-- Replace with your real public key
+const SERVICE_ID = "service_zshgayc";
+const TEMPLATE_ID = "template_3s478pl";
+const PUBLIC_KEY = "ejAkxTLV84M8ZTwjP"; // <-- Replace with your real public key
 
 export default function DonationForm() {
   const [amount, setAmount] = useState("");
